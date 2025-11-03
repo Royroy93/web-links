@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>超連結範例</title>
+    <style>
+        body {
+            font-family: "微軟正黑體";
+            text-align: center;
+            background-color: #f2f2f2;
+        }
+        h1 {
+            color: #333;
+            margin-top: 40px;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            margin-top: 50px;
+        }
+        .container a {
+            text-decoration: none;
+        }
+        .container img {
+            width: 300px;
+            height: 180px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .container img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+        }
+        footer {
+            margin-top: 50px;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <h1>我的三個超連結範例</h1>
+    <div class="container">
+        <a href="https://www.google.com/" target="_blank">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google">
+        </a>
+        <a href="https://www.youtube.com/" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube">
+        </a>
+        <a href="https://www.facebook.com/" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png" alt="Facebook">
+        </a>
+    </div>
+    <footer>
+        <p>網頁設計作業：三個圖片超連結示範</p>
+    </footer>
+</body>
+</html>
